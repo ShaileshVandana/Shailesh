@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-27T17:38:47 IST" name="Suite" finished-at="2025-07-27T17:38:47 IST" duration-ms="51">
+    <groups>
+    </groups>
+    <test started-at="2025-07-27T17:38:47 IST" name="Test" finished-at="2025-07-27T17:38:47 IST" duration-ms="51">
+      <class name="testcase.brokenLinksTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:testcase.brokenLinksTest@6aeb35e6]" started-at="2025-07-27T17:38:47 IST" name="start" finished-at="2025-07-27T17:38:47 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="createTestObject()[pri:0, instance:testcase.brokenLinksTest@6aeb35e6]" started-at="2025-07-27T17:38:47 IST" name="createTestObject" finished-at="2025-07-27T17:38:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestObject -->
+        <test-method is-config="true" signature="closeTestOb()[pri:0, instance:testcase.brokenLinksTest@6aeb35e6]" started-at="2025-07-27T17:38:47 IST" name="closeTestOb" finished-at="2025-07-27T17:38:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTestOb -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcase.brokenLinksTest@6aeb35e6]" started-at="2025-07-27T17:38:47 IST" name="close" finished-at="2025-07-27T17:38:47 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "testcase.brokenLinksTest.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "testcase.brokenLinksTest.driver" is null
+at testcase.brokenLinksTest.close(brokenLinksTest.java:58)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:386)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcase.brokenLinksTest -->
+      <class name="testcase.countAlphabetsTest">
+        <test-method is-config="true" signature="createClassObject()[pri:0, instance:testcase.countAlphabetsTest@313ac989]" started-at="2025-07-27T17:38:47 IST" name="createClassObject" finished-at="2025-07-27T17:38:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createClassObject -->
+        <test-method is-config="true" signature="beforeMethodRun()[pri:0, instance:testcase.countAlphabetsTest@313ac989]" started-at="2025-07-27T17:38:47 IST" name="beforeMethodRun" finished-at="2025-07-27T17:38:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodRun -->
+        <test-method signature="countTotalAlphabetsOccuranceTest()[pri:1, instance:testcase.countAlphabetsTest@313ac989]" started-at="2025-07-27T17:38:47 IST" name="countTotalAlphabetsOccuranceTest" finished-at="2025-07-27T17:38:47 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countTotalAlphabetsOccuranceTest -->
+        <test-method is-config="true" signature="closeTestObject()[pri:0, instance:testcase.countAlphabetsTest@313ac989]" started-at="2025-07-27T17:38:47 IST" name="closeTestObject" finished-at="2025-07-27T17:38:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTestObject -->
+        <test-method signature="swapAlphabetsTest()[pri:2, instance:testcase.countAlphabetsTest@313ac989]" started-at="2025-07-27T17:38:47 IST" name="swapAlphabetsTest" finished-at="2025-07-27T17:38:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swapAlphabetsTest -->
+        <test-method is-config="true" signature="beforeMethodRun()[pri:0, instance:testcase.countAlphabetsTest@313ac989]" started-at="2025-07-27T17:38:47 IST" name="beforeMethodRun" finished-at="2025-07-27T17:38:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodRun -->
+        <test-method is-config="true" signature="closeTestObject()[pri:0, instance:testcase.countAlphabetsTest@313ac989]" started-at="2025-07-27T17:38:47 IST" name="closeTestObject" finished-at="2025-07-27T17:38:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTestObject -->
+        <test-method is-config="true" signature="beforeMethodRun()[pri:0, instance:testcase.countAlphabetsTest@313ac989]" started-at="2025-07-27T17:38:47 IST" name="beforeMethodRun" finished-at="2025-07-27T17:38:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodRun -->
+        <test-method signature="normalSwapTest()[pri:3, instance:testcase.countAlphabetsTest@313ac989]" started-at="2025-07-27T17:38:47 IST" name="normalSwapTest" finished-at="2025-07-27T17:38:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- normalSwapTest -->
+        <test-method is-config="true" signature="closeTestObject()[pri:0, instance:testcase.countAlphabetsTest@313ac989]" started-at="2025-07-27T17:38:47 IST" name="closeTestObject" finished-at="2025-07-27T17:38:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTestObject -->
+        <test-method is-config="true" signature="closeClassObject()[pri:0, instance:testcase.countAlphabetsTest@313ac989]" started-at="2025-07-27T17:38:47 IST" name="closeClassObject" finished-at="2025-07-27T17:38:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeClassObject -->
+        <test-method is-config="true" signature="closeTestOb()[pri:0, instance:testcase.countAlphabetsTest@313ac989]" started-at="2025-07-27T17:38:47 IST" name="closeTestOb" finished-at="2025-07-27T17:38:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTestOb -->
+      </class> <!-- testcase.countAlphabetsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
